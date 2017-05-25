@@ -1,0 +1,18 @@
+﻿Build started 25-05-2017 12:10:12.
+     1>Project "C:\Users\abhishek.jain\Documents\Visual Studio 2010\Projects\Tetris\Tetris\Tetris.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Tetris.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\abhishek.jain\Documents\Visual Studio 2010\Projects\Tetris" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt board.cpp
+         board.cpp
+     1>c:\users\abhishek.jain\documents\visual studio 2010\projects\tetris\tetris\board.cpp(213): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhishek.jain\documents\visual studio 2010\projects\tetris\tetris\board.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhishek.jain\documents\visual studio 2010\projects\tetris\tetris\board.cpp(222): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\users\abhishek.jain\documents\visual studio 2010\projects\tetris\tetris\board.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\abhishek.jain\documents\visual studio 2010\projects\tetris\tetris\board.cpp(234): error C2065: 'GLUT_BITMAP_TIMES_ROMAN_40' : undeclared identifier
+     1>Done Building Project "C:\Users\abhishek.jain\Documents\Visual Studio 2010\Projects\Tetris\Tetris\Tetris.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
